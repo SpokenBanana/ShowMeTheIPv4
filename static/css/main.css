@@ -1,0 +1,127 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: #11557C;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.header {
+    padding: 10px;
+    border-bottom: 1px solid #11557C;
+}
+
+.map-container {
+    background-color: white;
+    padding: 10px;
+}
+
+.map {
+    display: block;
+    position: relative;
+    margin: 10px auto;
+    box-shadow: 3px 3px 20px 2px #11557C;
+    height: 600px;
+    width: 1000px;
+}
+
+.content {
+    padding: 10px;
+    border-top: 1px solid #11557C;
+}
+
+.hidden {
+    display: none;
+}
+
+.load-container {
+    height: 64px;
+}
+
+button {
+    border: 1px solid #11557C;
+    color: #11557C;
+    font-family: sans-serif;
+    padding: 7px;
+    background-color: white;
+}
+
+button:hover {
+    background-color: #11557C;
+    color: white;
+}
+
+input[type="text"] {
+    border: 1px solid #11557C;
+    padding: 8px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: red;
+}
+
+.options {
+    border: none;
+    color: gray;
+    border-bottom: 1px solid gray;
+}
+
+.options:hover {
+    color: #485F6E;
+    border-bottom: 1px solid #485F6E;
+}
+
+.selected {
+    color: #11557C;
+    border-bottom: 1px solid #11557C;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #11557C;
+    background-color: white;
+}
+
+.color {
+    margin:0;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.key {
+    margin: 10px;
+}
+
+.key p {
+    margin: 4px;
+    display: inline-block;
+}
+
+.key h3 {
+    margin: 4px;
+}
+
+.val-1 {
+    background-color: purple;
+}
+
+.val-2 {
+    background-color: blue;
+}
+.val-3 {
+    background-color: #FFF047;
+}
+.val-6 {
+    background-color: #F6A03E;
+}
+.val-8 {
+    background-color: #ED5035;
+}
+.val-10 {
+    background-color: red;
+}
